@@ -14,19 +14,24 @@ class Navbar extends Component {
             <ul id="nav-mobile" className="right hide-on-small-only">
               <li>
                 <Link to="/">
-                  <i className="material-icons">person</i>
+                  <i className="material-icons">people</i>
                 </Link>
               </li>
             </ul>
             <ul className="side-nav" id="main-menu">
               <li>
                 <Link to="/">
-                  <i className="material-icons">person</i> Meetups
+                  <i className="material-icons">people</i> Meetups
                 </Link>
               </li>
               <li>
                 <Link to="/meetups/add">
                   <i className="material-icons">add</i> Add Meetups
+                </Link>
+              </li>
+              <li>
+                <Link to="/about">
+                  <i className="material-icons">live_help</i> About
                 </Link>
               </li>
             </ul>
