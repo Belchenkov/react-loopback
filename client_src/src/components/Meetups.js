@@ -42,7 +42,6 @@ class Meetups extends Component {
       </div>
     );
   }
-
 }
 
 export default Meetups;

@@ -23,7 +23,7 @@ class MeetupDetails extends Component {
         this.setState({
           details: response.data
         }, () => {
-          console.log(this.state);
+          //console.log(this.state);
         });
       }).catch(err => console.log(err));
   }
